@@ -1,0 +1,151 @@
+body,html{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	/*background-color: olive;*/
+}
+.bot{
+	width: 100%;
+	position: absolute;
+	top: 70px;
+	bottom: 0;
+	/*background-color: red;*/
+}
+.title{
+	width: 200px;
+	height: 70px;
+	font-family: "微软雅黑";
+	font-size: 25px;
+	text-align: center;
+	line-height: 70px;
+	background-color: #36b0c8;
+}
+.title a{
+	color: white;
+}
+.left{
+	width: 200px;
+	height: 100%;
+background: #232c32;
+}
+.right{
+	overflow: scroll;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	right: 0;
+	bottom: 0;
+	/*background-color: goldenrod;*/
+}
+.username{
+	position: absolute;
+	top: 0;
+	font-family: "微软雅黑";
+	right: 0;
+	height: 70px;
+	width: 200px;
+	line-height: 70px;
+}
+.username img{
+	margin: 10px;
+	float:right;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	margin-right: 20px;
+}
+.user span{
+	line-height: 70px;
+}
+.username:hover{
+	background: gray;
+}
+.left_top{
+	font-family: "微软雅黑";
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	color: grey;
+	background-color: #232c32;
+}
+.left_bot{
+	font-family: "微软雅黑";
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	color: grey;
+	background-color: #232c32;
+}
+.frist-li{
+	padding: 10px;
+	color: white;
+	font-family: "微软雅黑"
+}
+.left_li{
+	color: gainsboro;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	padding-left: 30px;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	margin: 20;
+	background-color: #232c32;
+}
+
+.left_li:hover{
+	color: white;
+	background-color:#2c3942 ;
+}
+
+.content-viedo-title{
+	font-family: "微软雅黑";
+	font-size: 28px;
+	color: #789dce;
+}
+.content-viedo-time{
+	background: gray;
+	font-family: "微软雅黑";
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 10px;
+	
+}
+.content-viedo-deatil{
+	position: relative;
+	float: left;
+	margin: 1%;
+	width: 30%;
+	height: auto;
+}
+.content-video-img{
+	border-radius: 5px;
+	width: 100%;
+	height: auto;	
+}
+.content-video-img:hover{
+	opacity: 0.6;
+	background-color: gray;
+}
+.content-viedo-name,.content-viedo-author{
+	color: grey;
+	font-family: "微软雅黑";
+	font-size: 13px;
+}
+.content-videolist-detail{
+	float: left;
+	position: relative;
+	width: 22%;
+	height: auto;
+	margin: 1%;
+}
+

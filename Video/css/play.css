@@ -1,0 +1,82 @@
+body,html{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-family: "微软雅黑";
+	color: black;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	/*background-color: olive;*/
+}
+.botten{
+	width: 100%;
+	position: absolute;
+	top: 70px;
+	bottom: 0;
+	background-color: #f2f4f8;
+}
+.title{
+	background: #36b0c8;
+	font-size: 25px;
+	width: 200px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	font-family: "微软雅黑";
+}
+.title a{
+		color: white;
+}
+.left{
+	width: 200px;
+	height: 100%;
+	background-color: #181f24;
+}
+.img{
+	margin: 10px;
+	float:left;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	margin-right: 20px;
+}
+.tou{
+	position: absolute;
+	bottom:0 ;
+	font-family: "微软雅黑";
+	/*right: 0;*/
+	height: 70px;
+	width: 200px;
+	line-height: 70px;
+}
+.tou span{
+	line-height: 70px;
+}
+.tou:hover{
+	background-color: grey;
+}
+.right{
+	overflow: scroll;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	right: 0;
+	bottom: 0;
+	padding: 1%;
+	/*background-color: goldenrod;*/
+}
+.detail{
+	position: absolute;
+	top: 0;
+	left: 650px;
+	right: 200;
+	bottom: 0;
+	padding: 1%;
+}
+
