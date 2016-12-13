@@ -27,17 +27,28 @@
 
 				<div class="play-video">
 
-					<video width="600px" height="400px" class="video-win" controls="controls">
-						<source src="video/The Weeknd - False Alarm.mp4"></source>
+					<video width="600px" height="400px" class="video-win" id="video" controls="controls">
+						<source src="video/The Weeknd - False Alarm.mp4" type="video/mp4"></source>						
+					</video>					
+					<br />
+					<input type="button" name="play" id="play" value="开始" onclick="playorpause()" />
 
-					</video>
+					<input type="button" name="voice" id="voice" value="静音" onclick="slience()" />
+					
+					<input type="button" name="fullscreen" id="fullscreen" value="全屏" onclick="videofullscreen()" />
+					
+					
+					<br/>
+					<progress id="progress" value="100" max="1000"></p rogress>
 				</div>
+				
 				<div class="detail">
 					<h1> MV介绍</h1>
-					<p>黑暗暴力，胆小勿入简介：The Weeknd新专辑第二首新歌《False Alarm》MV曝光，暴力抢案的血腥剧情，不但非常有暴力美学电影感，也仿佛进入真人游戏世界，短短5分多钟的影片看起来就像一部小型电影！</p>
+					<p>黑暗暴力，胆小勿入
+					<p>简介：The Weeknd新专辑第二首新歌《False Alarm》MV曝光，暴力抢案的血腥剧情，不但非常有暴力美学电影感，也仿佛进入真人游戏世界，短短5分多钟的影片看起来就像一部小型电影！</p>
 				</div>
 			</div>
 		</div>
-			
+	<script src="js/play.js">		</script>	
 	</body>
 </html>

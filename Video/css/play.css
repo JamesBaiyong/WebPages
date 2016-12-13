@@ -80,3 +80,7 @@ a{
 	padding: 1%;
 }
 
+#progress{
+	width: 600px;
+	height: 10px;
+}
